@@ -5,6 +5,6 @@ __pycache__/
 # Python bytecode
 *.py[cod]
 # Virtual environment
-venv/
+.venv/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/

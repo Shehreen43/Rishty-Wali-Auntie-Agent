@@ -47,6 +47,8 @@ rishty_agent = Agent(
      If multiple matches are found, list them clearly with numbering or bullet points in your response. Only send match details via WhatsApp if the user asks for it.
      """,
     model=model,
+
+    
     tools=[get_user_data_from_sheet, send_whatsapp_message]
 )
 # ---------------------------
@@ -75,7 +77,7 @@ if "history" not in st.session_state:
 # ---------------------------
 # 💌 Prompt Input
 # ---------------------------
-prompt = st.text_area("💬 Aunty ko kia kehna chahogay?", placeholder="25 saal ki doctor ladki ka rishta chahiye...")
+prompt = st.text_area("💬 Aunty ko kia kehna chahogay?", placeholder=" Mera naam Ali/Sara hai, main 19 saal ka larka/larki hoon. Mera number 0333-XXXXXXX hai. Auntie, please meri shaadi karwa dein 😅💍\nAuntie Pleas Find rishta for me and send on my number.")
 
 # ---------------------------
 # 🔍 Find Rishta Button with Validation
