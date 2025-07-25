@@ -42,6 +42,9 @@ This is a **Rishty Wali Auntie Agent** app — a fun, AI-driven matchmaking assi
 4. All replies stay short, cute, and *auntie-style nosy* 💬
 
 ---
+![App Screenshot](demo/watsapp.png)  
+
+---
 
 ## 🚀 Run the App
 
